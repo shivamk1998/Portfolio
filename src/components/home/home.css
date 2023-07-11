@@ -36,6 +36,7 @@
 
 .home_social-link:hover {
   color: hsl(43, 100%, 68%);
+  transform: translateY(-5px);
 }
 
 .scroll_down {
@@ -102,12 +103,12 @@
 }
 
 .s1 {
-  left: 2%;
+  left: 82%;
   top: 10%;
 }
 
 .s2 {
-  left: 19%;
+  left: 79%;
   top: 28%;
 }
 

@@ -3,6 +3,10 @@
   column-gap: 1.875rem;
 }
 
+#resumeExp{
+  padding-top: 5rem;
+}
+
 .timeline {
   background-color: var(--container-color);
   padding: 1.875rem;
