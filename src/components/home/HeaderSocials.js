@@ -1,5 +1,5 @@
 import React from 'react'
-const recipientEmail = 'enter-mail';
+const recipientEmail = 'shivamkumarsingh1998@gmail.com';
   const mailtoLink = `mailto:${recipientEmail}`;
 const HeaderSocials = () => {
 	return (
@@ -20,9 +20,9 @@ const HeaderSocials = () => {
 			<i class="fa-brands fa-linkedin"></i>
 			</a>
 
-			{/* <a href="" className='home_social-link'target="_blank">
+			<a href="" className='home_social-link'target="_blank">
 			<i class="fa-brands fa-twitter"></i>
-			</a> */}
+			</a>
 		</div>
 	)
 }
