@@ -12,22 +12,53 @@
   z-index: 1;
 }
 
+.btn.hire{
+  opacity: 0; 
+  animation: fade-in 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards; 
+  animation-delay: 0.9s; 
+}
 .home_img {
   margin-bottom: 1.5rem;
+  opacity: 0; 
+  animation: rotate-in 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  animation-delay: 0.3s; 
 }
 
 .home_name {
   font-size: var(--h1-font-size);
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
-  opacity: 0; /* Hide the name initially */
-  animation: slide-in 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  opacity: 0; 
+  animation: slide-in 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
 }
+
 .home_education {
   opacity: 0; 
   font-weight: var(--font-semibold);
-  animation: scale-fade-in 1s forwards; /* Apply the scale-fade-in animation */
+  animation: scale-fade-in 1s forwards; 
   animation-delay: 0.5s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate-in {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0);
+  }
 }
 
 @keyframes slide-in {

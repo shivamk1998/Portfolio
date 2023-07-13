@@ -17,7 +17,7 @@ const Home = () => {
           I'm a Front-End developer
         </span>
         <HeaderSocials/>
-        <a href='#contact' className='btn'>Hire Me</a>
+        <a href='#contact' className='btn hire'>Hire Me</a>
 
         <ScrollDown/>
       </div>
