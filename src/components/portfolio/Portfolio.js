@@ -4,7 +4,7 @@ import recentworks from "./Data";
 
 const Portfolio = () => {
   return (
-    <section className="work container section" id="work">
+    <section className="work container section" id="portfolio">
       <h2 className="section_title">Recent Works</h2>
       {/* <div className="work_filters">
         <span className="work_item"></span>
@@ -20,6 +20,9 @@ const Portfolio = () => {
                 <div className="work_mask"></div>
               </div>
               <h3 className="work_title">{work.title}</h3>
+              <a href="#" className="work_button">
+                <i className="icon_link work_button-icon fa fa-link"></i>
+              </a>
             </div>
           );
         })}

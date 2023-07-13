@@ -7,7 +7,7 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const recipientEmail = 'enter-mail';
+  const recipientEmail = 'shivamkumarsingh1998@gmail.com';
   const mailtoLink = `mailto:${recipientEmail}`;
 
   const handleSubmit = (e) => {

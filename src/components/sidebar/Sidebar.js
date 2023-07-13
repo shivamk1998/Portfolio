@@ -33,11 +33,11 @@ const Sidebar = () => {
                 <i className='icon-graduation' title="Resume"></i>
               </a>
             </li>
-            {/* <li className='nav_item'>
+            <li className='nav_item'>
             <a href='#portfolio' className='nav_link'>
             <i className='icon-layers'></i>
             </a>
-          </li> */}
+          </li>
             {/* <li className='nav_item'>
               <a href='#blog' className='nav_link'>
                 <i className='icon-note' title="Blog"></i>

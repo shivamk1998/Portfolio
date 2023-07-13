@@ -1,3 +1,8 @@
+#about{
+  padding: 2rem;
+}
+
+
 .about_container {
   grid-template-columns: 3fr 9fr;
   column-gap: 1.875rem;
