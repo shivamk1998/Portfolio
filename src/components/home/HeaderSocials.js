@@ -9,19 +9,19 @@ const HeaderSocials = () => {
 			</a>
 
 			<a href="" className='home_social-link'target="_blank">
-			<i class="fa-brands fa-facebook"></i>
+			<i class="fab fa-facebook"></i>
 			</a>
 
 			<a href="https://github.com/shivamk1998" className='home_social-link'target="_blank" rel="noreferrer">
-			<i class="fa-brands fa-github"></i>
+			<i class="fab fa-github"></i>
 			</a>
 
 			<a href="https://www.linkedin.com/in/shivam-singh-068214163" className='home_social-link'target="_blank" rel="noreferrer">
-			<i class="fa-brands fa-linkedin"></i>
+			<i class="fab fa-linkedin"></i>
 			</a>
 
 			<a href="" className='home_social-link'target="_blank">
-			<i class="fa-brands fa-twitter"></i>
+			<i class="fab fa-twitter"></i>
 			</a>
 		</div>
 	)
